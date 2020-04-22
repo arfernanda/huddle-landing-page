@@ -18,9 +18,16 @@ a, a:visited{
 }
 
 header{
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   @media screen and (min-width: 1024px) {
     margin-bottom: 100px;
+  }
+
+  > img{
+    width: 120px;
+    @media screen and (min-width: 1024px) {
+      width: 200px;
+    }
   }
 }
 
