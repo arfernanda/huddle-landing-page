@@ -38,19 +38,30 @@ footer{
   @media screen and (min-width: 1024px) {
     justify-content: flex-end;
   }
-  
-  i.fab {
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    border: 1px solid #ffffff;
-    width: 48px;
-    height: 48px;
-    display: flex;
+
+  > a{
     margin-right: 16px;
+    transform: translateY(0px);
+    transition: transform 100ms ease-in-out;
 
     &:last-child{
       margin-right: 0px;
     }
+
+    &:hover{
+      transform: translateY(-3px);
+      transition: transform 100ms ease-in-out;
+    }
+  }
+  
+  i.fab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    width: 48px;
+    height: 48px;
   }
 }
