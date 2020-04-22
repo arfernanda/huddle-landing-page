@@ -23,3 +23,27 @@ header{
     margin-bottom: 100px;
   }
 }
+
+footer{
+  display: flex;
+  justify-content: center;
+
+  @media screen and (min-width: 1024px) {
+    justify-content: flex-end;
+  }
+  
+  i.fab {
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    margin-right: 16px;
+
+    &:last-child{
+      margin-right: 0px;
+    }
+  }
+}
