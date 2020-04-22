@@ -43,3 +43,29 @@ h1{
   font-weight: 700;
   line-height: 1.3;
 }
+
+a.cta{
+  display: inline-block;
+  position: relative;
+  min-width: 200px;
+  margin-top: 26px;
+  padding: 16px;
+  background-color: #FFFFFF;
+  color:$purple;
+  line-height: 1;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px darken($purple, 20%);
+  transition: 0.25s;
+  
+  @media screen and (min-width: 1024px) {
+    padding: 20px 66px;
+  }
+}
+
+a.cta:hover{
+  background-color: #d454d4;
+  box-shadow: 5px 5px 10px darken(#d454d4, 40%);
+  color: #FFFFFF;
+  transition: 0.25s;
+}
