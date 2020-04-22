@@ -28,12 +28,12 @@ header {
   }
 }
 
-header > img {
+header img {
   width: 120px;
 }
 
 @media screen and (min-width: 1024px) {
-  header > img {
+  header img {
     width: 200px;
   }
 }
