@@ -10,7 +10,7 @@ body, html{
 body{
   line-height: 1.5;
   font-family: $font-body;
-  font-size: 16px;
+  font-size: 19px;
 }
 
 a, a:visited{
@@ -18,13 +18,14 @@ a, a:visited{
 }
 
 header{
-  margin-bottom: 50px;
+  margin-bottom: 115px;
   @media screen and (min-width: 1024px) {
     margin-bottom: 100px;
   }
 
   img{
-    width: 120px;
+    width: 240px;
+    padding-top: 30px;
     @media screen and (min-width: 1024px) {
       width: 200px;
     }
